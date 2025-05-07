@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Registe A Course</title>
+    </head>
+    <body>
+        <h1 style="color: rgb(0, 0, 0);">Kickstart with an exciting course</h1>
+        <form action="http://localhost:8080/courses/enroll" method="post">
+            <label for="name">Enter your name</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label for="email">Enter your emailId</label><br>
+            <input type="email" name="emailId"><br><br>
+
+            <label for="course">Choose a Course</label><br>
+            <select id="course" name="courseName">
+                <option value="Java Essentials">Java Essentials</option>
+                <option value="Python for ML">Python for ML</option>
+                <option value="Spring Boot">Spring Boot</option>
+                <option value="Java FullStack">Java FullStack</option>
+            </select>
+            <br><br>
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
